@@ -1,0 +1,36 @@
+-----------------------------------------------Reason For Using File Instead of RAF---------------------
+1. https://stackoverflow.com/questions/51985873/file-vs-random-access-file-in-java/51985982#51985982
+2.
+
+
+-----------------------------------------------------Print All Files--------------------------------------------------------------
+
+1. Create File object for main directory.
+2. Get array of files for main directory.
+3. If array[i] is a file :
+   -> Print out file name.
+4. If array[i] is a directory :
+   -> Print out directory name.
+   -> Get array of files for current sub-directory.
+   -> Repeat the step 3 and 4 with current sub-directory.
+
+5. Repeat the step 3 and 4 with next array[i].
+6. Geeks for geeks(https://www.geeksforgeeks.org/java-program-list-files-directory-nested-sub-directories-recursive-approach)
+
+------------------------------------------------------File Reading(Parsing)-------------------------------------------------------
+
+1. New IO streams using channels and buffer (refer jcr-630)
+2. links (https://docs.oracle.com/javase/7/docs/api/java/nio/Buffer.html)(https://docs.oracle.com/javase/7/docs/api/java/nio/channels/FileChannel.html)
+3. Reason (https://stackoverflow.com/questions/49061304/java-filechannel-vs-bufferedreader-spring-batch-reader)(https://stackoverflow.com/questions/1605332/java-nio-filechannel-versus-fileoutputstream-performance-usefulness)
+4. Model code in (https://naryad.wordpress.com/2012/03/16/largy-file-copying-bufferedreader-vs-scanner/)
+
+**************************************************************************
+
+1. Traditional Io Buffer and FileTReader
+2. links()
+3. Reason(https://code.i-harness.com/en/q/187ed4)
+
+
+Here I went with buffered reader and file reader because the file size are less than 50mb.
+
+----------------------------------------------------------Searching A String -----------------------------------------------------------

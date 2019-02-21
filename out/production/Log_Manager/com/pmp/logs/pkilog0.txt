@@ -1,0 +1,22 @@
+somes[14:38:10:008]|[08-13-2018]|[com.manageengine.pki.StartupService]|[INFO]|[18]: Key Manager Plus Build version : 5.6.0-- Build Number : 5600|
+[14:38:10:046]|[08-13-2018]|[com.manageengine.pki.StartupService]|[INFO]|[18]: LicenseTo : Evaluation User -- LicenseExpireDate : 2018 9 12 -- LicenseType : Trial|
+[14:38:10:046]|[08-13-2018]|[com.manageengine.pki.StartupService]|[INFO]|[18]: Keymanager Startup service.|
+[14:38:26:011]|[08-13-2018]|[com.manageengine.pki.schedule.task.AuditPurgeTask]|[INFO]|[131]: Audit purge task started|
+[14:38:26:050]|[08-13-2018]|[com.manageengine.pki.schedule.task.NotifyCertificateExpiration]|[INFO]|[132]: ScheduleTask Started for Notification of Certificate Expire|
+[14:38:26:305]|[08-13-2018]|[com.manageengine.pki.schedule.task.ScheduleMSCAAutoRenewalTask]|[INFO]|[133]: MicroSoft CA AutoRenewal Task Running.....|
+[14:38:26:382]|[08-13-2018]|[com.manageengine.pki.ssl.SSLVulnerabilitiesTask]|[INFO]|[135]: SSL Vulnerabilities task started|
+[14:38:26:403]|[08-13-2018]|[com.manageengine.pki.letsencrypt.LetsEncryptRenewalTask]|[INFO]|[134]: Let's Encrypt certificate renewel task started|
+[23:00:00:018]|[08-13-2018]|[com.manageengine.pki.schedule.task.NotifyCertificateExpiration]|[INFO]|[131]: ScheduleTask Started for Notification of Certificate Expire|
+[00:10:00:003]|[08-14-2018]|[com.manageengine.pki.schedule.task.AuditPurgeTask]|[INFO]|[132]: Audit purge task started|
+[03:00:00:002]|[08-14-2018]|[com.manageengine.pki.ssl.SSLVulnerabilitiesTask]|[INFO]|[131]: SSL Vulnerabilities task started|
+[05:00:00:001]|[08-14-2018]|[com.manageengine.pki.letsencrypt.LetsEncryptRenewalTask]|[INFO]|[133]: Let's Encrypt certificate renewel task started|
+[13:00:00:002]|[08-14-2018]|[com.manageengine.pki.schedule.task.ScheduleMSCAAutoRenewalTask]|[INFO]|[131]: MicroSoft CA AutoRenewal Task Running.....|
+[12:42:09:717]|[08-20-2018]|[com.manageengine.pki.StartupService]|[INFO]|[18]: Key Manager Plus Build version : 5.6.0-- Build Number : 5600|
+[12:42:09:770]|[08-20-2018]|[com.manageengine.pki.StartupService]|[INFO]|[18]: LicenseTo : Evaluation User -- LicenseExpireDate : 2018 9 12 -- LicenseType : Trial|
+[12:42:09:771]|[08-20-2018]|[com.manageengine.pki.StartupService]|[INFO]|[18]: Keymanager Startup service.|
+[12:42:22:266]|[08-20-2018]|[com.manageengine.pki.ssl.SSLVulnerabilitiesTask]|[INFO]|[127]: SSL Vulnerabilities task started|
+[12:42:22:363]|[08-20-2018]|[com.manageengine.pki.schedule.task.AuditPurgeTask]|[INFO]|[127]: Audit purge task started|
+[12:42:22:402]|[08-20-2018]|[com.manageengine.pki.schedule.task.ScheduleMSCAAutoRenewalTask]|[INFO]|[130]: MicroSoft CA AutoRenewal Task Running.....|
+[12:42:22:405]|[08-20-2018]|[com.manageengine.pki.letsencrypt.LetsEncryptRenewalTask]|[INFO]|[131]: Let's Encrypt certificate renewel task started|
+[12:42:22:427]|[08-20-2018]|[com.manageengine.pki.schedule.task.NotifyCertificateExpiration]|[INFO]|[129]: ScheduleTask Started for Notification of Certificate Expire|
+[13:00:00:001]|[08-20-2018]|[com.manageengine.pki.schedule.task.ScheduleMSCAAutoRenewalTask]|[INFO]|[127]: MicroSoft CA AutoRenewal Task Running.....|

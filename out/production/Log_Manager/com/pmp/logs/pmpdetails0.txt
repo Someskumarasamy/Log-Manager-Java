@@ -1,0 +1,18 @@
+somes[14:38:11:128]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Product Version : 9.7.0 |
+[14:38:11:130]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Product Build Number : 9702 |
+[14:38:11:130]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Product Architecture : 64 |
+[14:38:11:130]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Database Version : PostgreSQL 9.5.3 on x86_64-apple-darwin, compiled by i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00), 64-bit |
+[14:38:11:130]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Product Category : Enterprise |
+[14:38:11:130]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Slave Server Info : false |
+[14:38:11:130]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Base Language : English |
+[14:38:11:130]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: FIPS Enabled : false |
+[14:38:11:130]|[08-13-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Optimized Query Enabled : always |
+[12:42:10:524]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Product Version : 9.7.0 |
+[12:42:10:528]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Product Build Number : 9702 |
+[12:42:10:529]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Product Architecture : 64 |
+[12:42:10:529]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Database Version : PostgreSQL 9.5.3 on x86_64-apple-darwin, compiled by i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00), 64-bit |
+[12:42:10:529]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Product Category : Enterprise |
+[12:42:10:529]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Slave Server Info : false |
+[12:42:10:529]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Base Language : English |
+[12:42:10:529]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: FIPS Enabled : false |
+[12:42:10:529]|[08-20-2018]|[com.adventnet.passtrix.PMPDetails]|[INFO]|[18]: Optimized Query Enabled : always |

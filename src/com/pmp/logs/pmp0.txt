@@ -1,0 +1,104 @@
+somes[14:37:45:400]|[08-13-2018]|[com.adventnet.passtrix.PMPPersistencePreProcessor]|[INFO]|[18]:  IS COLD START true|
+[14:37:45:400]|[08-13-2018]|[com.adventnet.passtrix.PMPPersistencePreProcessor]|[INFO]|[18]: COLD START : No update necessary for SeqGenState|
+[14:37:50:225]|[08-13-2018]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[18]: addTemplate: PassTrix, Ptrx_OrgUserAudit|
+[14:37:50:225]|[08-13-2018]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[18]: addTemplate: PassTrix, Ptrx_OrgRecordedSessionInfo|
+[14:37:50:233]|[08-13-2018]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[18]: addTemplate: PassTrix, Ptrx_OrgUserSessions|
+[14:38:02:776]|[08-13-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering PassTrixService CreateService |
+[14:38:02:817]|[08-13-2018]|[com.adventnet.passtrix.DMNotificationListener]|[INFO]|[18]: INIT MESSAGE LISTNER CALLED|
+[14:38:02:828]|[08-13-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering PassTrixService CreateService |
+[14:38:02:829]|[08-13-2018]|[com.adventnet.passtrix.service.FOSService]|[INFO]|[18]: FOS ServiceMac OS X|
+[14:38:02:829]|[08-13-2018]|[com.adventnet.passtrix.service.FOSService]|[INFO]|[18]: FOS Service - null|
+[14:38:10:166]|[08-13-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering PassTrixService StartService |
+[14:38:11:109]|[08-13-2018]|[com.adventnet.passtrix.ed.PMPAPI]|[INFO]|[18]:  ## PMP ## Encryptor ## Decryptor ## - Class initialized successfully with com.adventnet.passtrix.ed.PMPEncryptDecryptImpl|
+[14:38:11:114]|[08-13-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering PassTrixService StartService |
+[14:38:11:147]|[08-13-2018]|[com.adventnet.passtrix.MSPUtil]|[INFO]|[18]: Valid PMP Build Check Done.|
+[14:38:12:708]|[08-13-2018]|[com.adventnet.passtrix.organization.OrganizationUtil]|[INFO]|[18]: MSP Organization Details Updated with Default Values|
+[14:38:13:049]|[08-13-2018]|[com.adventnet.passtrix.PMPUtils]|[INFO]|[18]:  FW Backup Configurations set {backup.failure.policy=5, framework.online.backup=, backup.content.type=binary, fullbackup.retaincount=5, fullbackup.interval=-1, backup.directory=/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup, backuplabel.waitduration=20, fullbackup.intervaltype=days}|
+[14:38:13:785]|[08-13-2018]|[com.adventnet.passtrix.client.util.ClientUtil]|[INFO]|[18]:  getMasterInfo - conf file does not exists ../pgsql/bin/Primary.conf|
+[14:38:14:191]|[08-13-2018]|[com.adventnet.passtrix.reports.CustomReportUtils]|[INFO]|[18]: Going to create the default custom reports...|
+[14:38:14:334]|[08-13-2018]|[com.adventnet.passtrix.reports.CustomReportUtils]|[INFO]|[18]: Going to create the default query reports...|
+[14:38:15:755]|[08-13-2018]|[com.adventnet.passtrix.reports.CustomReportUtils]|[INFO]|[18]: Default query reports created successfully...|
+[14:38:15:768]|[08-13-2018]|[com.adventnet.passtrix.organization.OrganizationUtil]|[INFO]|[18]: DB request is sent from getOrgIdVsUrlDetails and the result is{1=msp}|
+[14:38:15:780]|[08-13-2018]|[com.adventnet.passtrix.client.util.ClientUtil]|[INFO]|[18]:  getMasterInfo - conf file does not exists ../pgsql/bin/Primary.conf|
+[14:38:15:814]|[08-13-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Updating Active Sessions as dead|
+[14:38:15:825]|[08-13-2018]|[com.adventnet.passtrix.tasks.SaveRecSessionPrimary]|[INFO]|[43]: SaveRecSessionPrimary : Task called. |
+[14:38:15:895]|[08-13-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering populateADSchedule|
+[14:38:15:897]|[08-13-2018]|[com.adventnet.passtrix.utils.ADSyncDetails]|[INFO]|[18]: Entering startScheduleAfterPPM for org 1|
+[14:38:15:900]|[08-13-2018]|[com.adventnet.passtrix.utils.ADSyncDetails]|[INFO]|[18]: Completed startScheduleAfterPPM for org 1|
+[14:38:15:900]|[08-13-2018]|[com.adventnet.passtrix.utils.ADSyncDetails]|[INFO]|[18]: Entering into Populating default KMP schedules for org 1|
+[14:38:15:904]|[08-13-2018]|[com.adventnet.passtrix.utils.ADSyncDetails]|[INFO]|[18]: Completed Populating default KMP schedules for org 1|
+[14:38:15:904]|[08-13-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Successfully populated AD Schedule|
+[14:38:15:934]|[08-13-2018]|[com.adventnet.passtrix.fw.json.JSONObjectWrapper]|[INFO]|[18]: inside equals with : com.adventnet.passtrix.fw.json.JSONObjectWrapper@70581bdb|
+[14:38:15:972]|[08-13-2018]|[com.adventnet.passtrix.service.GatewayService]|[INFO]|[123]: Starting Gateway Service from a new thread ...|
+[14:38:16:816]|[08-13-2018]|[com.adventnet.passtrix.ResourceUtils]|[INFO]|[122]: Going to decode notes and description in database|
+[14:38:25:780]|[08-13-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[116]: Discovery Timer Task Started......|
+[14:38:25:801]|[08-13-2018]|[com.adventnet.passtrix.discovery.DiscoveryUtils]|[INFO]|[116]: Discovery Task Status changed from INPROGRESS to INTERRUPTED for discovery tasks which are stopped due to PMP server down.|
+[14:38:29:579]|[08-13-2018]|[com.adventnet.passtrix.saml.SAMLUtil]|[INFO]|[59]: Key Alias : passwordmanagerpro|
+[14:38:30:486]|[08-13-2018]|[com.adventnet.passtrix.PMPUtils]|[SEVERE]|[59]: null|
+[14:42:38:589]|[08-13-2018]|[com.adventnet.passtrix.PMPUtils]|[SEVERE]|[67]: null|
+[14:47:46:317]|[08-13-2018]|[com.adventnet.passtrix.utils.PMPLicenseUtil]|[INFO]|[67]:  AMS Expiry Date ::: null|
+[14:47:46:363]|[08-13-2018]|[com.adventnet.passtrix.utils.PMPLicenseUtil]|[INFO]|[67]:  License Generation Date ::: null|
+[00:45:00:258]|[08-14-2018]|[com.adventnet.passtrix.tasks.CustomReportDeleteTask]|[INFO]|[133]: Calling CustomReportDelete Task .....|
+[01:45:00:926]|[08-14-2018]|[com.adventnet.passtrix.tasks.PMPReportTask]|[INFO]|[134]: Calling PMPReport Task .....|
+[01:45:01:010]|[08-14-2018]|[com.adventnet.passtrix.tasks.PMPReportTask]|[INFO]|[131]: Calling PMPReport Task .....|
+[02:00:00:487]|[08-14-2018]|[com.adventnet.passtrix.tasks.ResourceAuditPurge]|[INFO]|[133]: Resource Audit : Task called. RESOURCE_AUDIT_DIGEST|
+[02:00:00:696]|[08-14-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[132]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=1 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180814020000_9702.ezip" backup_starttime="2018-08-14 02:00:00.399" backup_endtime="1970-01-01 05:29:59.999" backup_status="BACKUP_PROCESS_STARTED" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[02:00:22:129]|[08-14-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[132]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=1 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180814020000_9702.ezip" backup_starttime="2018-08-14 02:00:00.399" backup_endtime="1970-01-01 05:29:59.999" backup_status="GOING_TO_CREATE_BACKUPZIP" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[02:00:33:241]|[08-14-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[132]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=1 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180814020000_9702.ezip" backup_starttime="2018-08-14 02:00:00.399" backup_endtime="1970-01-01 05:29:59.999" backup_status="BACKUPZIP_CREATION_COMPLETED" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[02:00:33:383]|[08-14-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[132]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=1 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180814020000_9702.ezip" backup_starttime="2018-08-14 02:00:00.399" backup_endtime="1970-01-01 05:29:59.999" backup_status="INDEXFILE_GENERATED_FOR_BACKUP" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[02:00:34:002]|[08-14-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[132]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=1 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180814020000_9702.ezip" backup_starttime="2018-08-14 02:00:00.399" backup_endtime="2018-08-14 02:00:34.002" backup_status="BACKUP_SUCCESSFULLY_COMPLETED" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[02:00:34:003]|[08-14-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[132]:  PMPBackupRestoreListener - BACKUP SUCCESSFULLY COMPLETED|
+[02:00:34:040]|[08-14-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreSanityChecker]|[INFO]|[132]:  ### PMP Backup Restore Sanity Checker :: checkBackup called... ###|
+[02:00:34:041]|[08-14-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreSanityChecker]|[INFO]|[132]: DB PARAMS OPTION from DB is true|
+[02:05:00:493]|[08-14-2018]|[com.adventnet.passtrix.tasks.UserAuditPurge]|[INFO]|[135]: User Audit : Task called. USER_AUDIT_DIGEST|
+[02:10:00:507]|[08-14-2018]|[com.adventnet.passtrix.tasks.TaskAuditPurge]|[INFO]|[134]: Task Audit : Task called. TASK_AUDIT_DIGEST|
+[03:01:00:516]|[08-14-2018]|[com.adventnet.passtrix.tasks.LicenseExpiryTask]|[INFO]|[132]: Going to execute License Expiry task...|
+[03:01:00:613]|[08-14-2018]|[com.adventnet.passtrix.utils.PMPLicenseUtil]|[INFO]|[132]:  AMS Expiry Date ::: null|
+[03:01:00:655]|[08-14-2018]|[com.adventnet.passtrix.utils.PMPLicenseUtil]|[INFO]|[132]:  License Generation Date ::: null|
+[03:01:00:877]|[08-14-2018]|[com.adventnet.passtrix.tasks.APIkeyExpiryNotification]|[INFO]|[135]: TaskContext TaskContext: id:16 ScheduledExecutionTime: 2018-08-14 03:01:00.86 env: null|
+[03:01:00:877]|[08-14-2018]|[com.adventnet.passtrix.tasks.APIkeyExpiryNotification]|[INFO]|[135]: Calling APIkeyExpiryNotification Task .....|
+[03:01:00:912]|[08-14-2018]|[com.adventnet.passtrix.tasks.AgentOperationCleanupTask]|[INFO]|[134]: AgentOperationCleanupTask executeTask called|
+[03:01:01:657]|[08-14-2018]|[com.adventnet.passtrix.tasks.LicenseExpiryTask]|[INFO]|[141]: Going to send license mail alerts....|
+[20:16:34:147]|[08-14-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[19]: Entering PassTrixService StopService |
+[12:42:00:254]|[08-20-2018]|[com.adventnet.passtrix.PMPPersistencePreProcessor]|[INFO]|[18]:  IS COLD START false|
+[12:42:00:280]|[08-20-2018]|[com.adventnet.passtrix.PMPPersistencePreProcessor]|[INFO]|[18]: WARM START : SeqGenState update invoked from PreProcessor|
+[12:42:01:766]|[08-20-2018]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[18]: addTemplate: PassTrix, Ptrx_OrgUserAudit|
+[12:42:01:766]|[08-20-2018]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[18]: addTemplate: PassTrix, Ptrx_OrgRecordedSessionInfo|
+[12:42:01:767]|[08-20-2018]|[com.adventnet.passtrix.db.persistence.metadata.AuditTemplateMetaHandler]|[INFO]|[18]: addTemplate: PassTrix, Ptrx_OrgUserSessions|
+[12:42:02:159]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering PassTrixService CreateService |
+[12:42:02:198]|[08-20-2018]|[com.adventnet.passtrix.DMNotificationListener]|[INFO]|[18]: INIT MESSAGE LISTNER CALLED|
+[12:42:02:218]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering PassTrixService CreateService |
+[12:42:02:218]|[08-20-2018]|[com.adventnet.passtrix.service.FOSService]|[INFO]|[18]: FOS ServiceMac OS X|
+[12:42:02:218]|[08-20-2018]|[com.adventnet.passtrix.service.FOSService]|[INFO]|[18]: FOS Service - null|
+[12:42:02:744]|[08-20-2018]|[com.adventnet.passtrix.ed.PMPAPI]|[INFO]|[18]:  ## PMP ## Encryptor ## Decryptor ## - Class initialized successfully with com.adventnet.passtrix.ed.PMPEncryptDecryptImpl|
+[12:42:09:956]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering PassTrixService StartService |
+[12:42:10:480]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering PassTrixService StartService |
+[12:42:10:557]|[08-20-2018]|[com.adventnet.passtrix.MSPUtil]|[INFO]|[18]: Valid PMP Build Check Done.|
+[12:42:11:276]|[08-20-2018]|[com.adventnet.passtrix.AuditUtils]|[INFO]|[18]:  UVHValues CLEARED for /conf/PassTrix/passtrix-data-msp-i18n.xml|
+[12:42:11:731]|[08-20-2018]|[com.adventnet.passtrix.client.util.ClientUtil]|[INFO]|[18]:  getMasterInfo - conf file does not exists ../pgsql/bin/Primary.conf|
+[12:42:11:821]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Updating Active Sessions as dead|
+[12:42:11:838]|[08-20-2018]|[com.adventnet.passtrix.tasks.SaveRecSessionPrimary]|[INFO]|[43]: SaveRecSessionPrimary : Task called. |
+[12:42:12:088]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Entering populateADSchedule|
+[12:42:12:096]|[08-20-2018]|[com.adventnet.passtrix.utils.ADSyncDetails]|[INFO]|[18]: Entering startScheduleAfterPPM for org 1|
+[12:42:12:105]|[08-20-2018]|[com.adventnet.passtrix.utils.ADSyncDetails]|[INFO]|[18]: Completed startScheduleAfterPPM for org 1|
+[12:42:12:105]|[08-20-2018]|[com.adventnet.passtrix.utils.ADSyncDetails]|[INFO]|[18]: Entering into Populating default KMP schedules for org 1|
+[12:42:12:109]|[08-20-2018]|[com.adventnet.passtrix.utils.ADSyncDetails]|[INFO]|[18]: Completed Populating default KMP schedules for org 1|
+[12:42:12:109]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[18]: Successfully populated AD Schedule|
+[12:42:12:139]|[08-20-2018]|[com.adventnet.passtrix.service.GatewayService]|[INFO]|[119]: Starting Gateway Service from a new thread ...|
+[12:42:20:347]|[08-20-2018]|[com.adventnet.passtrix.saml.SAMLUtil]|[INFO]|[58]: Key Alias : passwordmanagerpro|
+[12:42:21:543]|[08-20-2018]|[com.adventnet.passtrix.PMPUtils]|[SEVERE]|[58]: null|
+[12:42:21:722]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[112]: Discovery Timer Task Started......|
+[12:42:21:768]|[08-20-2018]|[com.adventnet.passtrix.discovery.DiscoveryUtils]|[INFO]|[112]: Discovery Task Status changed from INPROGRESS to INTERRUPTED for discovery tasks which are stopped due to PMP server down.|
+[12:42:22:486]|[08-20-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[128]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=301 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180820124222_9702.ezip" backup_starttime="2018-08-20 12:42:22.271" backup_endtime="1970-01-01 05:29:59.999" backup_status="BACKUP_PROCESS_STARTED" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[12:42:33:162]|[08-20-2018]|[com.adventnet.passtrix.PMPUtils]|[SEVERE]|[62]: null|
+[12:42:43:078]|[08-20-2018]|[com.adventnet.passtrix.PersistenceHandler]|[INFO]|[51]: Calling addServiceAccountResetGroups ... |
+[12:42:43:142]|[08-20-2018]|[com.adventnet.passtrix.PersistenceHandler]|[INFO]|[51]: Resource has been  added successfully|
+[12:42:56:381]|[08-20-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[128]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=301 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180820124222_9702.ezip" backup_starttime="2018-08-20 12:42:22.271" backup_endtime="1970-01-01 05:29:59.999" backup_status="GOING_TO_CREATE_BACKUPZIP" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[12:43:05:125]|[08-20-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[128]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=301 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180820124222_9702.ezip" backup_starttime="2018-08-20 12:42:22.271" backup_endtime="1970-01-01 05:29:59.999" backup_status="BACKUPZIP_CREATION_COMPLETED" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[12:43:05:274]|[08-20-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[128]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=301 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180820124222_9702.ezip" backup_starttime="2018-08-20 12:42:22.271" backup_endtime="1970-01-01 05:29:59.999" backup_status="INDEXFILE_GENERATED_FOR_BACKUP" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[12:43:05:876]|[08-20-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[128]:  PMPBackupRestoreListener - DB Backup status <BackupStatus backup_id=301 backupType="FULL_BACKUP" backup_folder="/Users/hari-3021/work/build/9702/AdventNet/PMP/Backup" backup_zipname="FullBackup_20180820124222_9702.ezip" backup_starttime="2018-08-20 12:42:22.271" backup_endtime="2018-08-20 12:43:05.876" backup_status="BACKUP_SUCCESSFULLY_COMPLETED" dataFileCount="0" lastDataFileName="null" lastDataFileModifiedTime="-1" fileNames="null"/>|
+[12:43:05:876]|[08-20-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreListener]|[INFO]|[128]:  PMPBackupRestoreListener - BACKUP SUCCESSFULLY COMPLETED|
+[12:43:05:923]|[08-20-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreSanityChecker]|[INFO]|[128]:  ### PMP Backup Restore Sanity Checker :: checkBackup called... ###|
+[12:43:05:924]|[08-20-2018]|[com.adventnet.passtrix.db.backuprestore.PMPBackupRestoreSanityChecker]|[INFO]|[128]: DB PARAMS OPTION from DB is true|
+[22:17:41:538]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[19]: Entering PassTrixService StopService |
+[22:17:41:773]|[08-20-2018]|[com.adventnet.passtrix.service.PassTrixService]|[INFO]|[19]: Entering PassTrixService DestroyService |

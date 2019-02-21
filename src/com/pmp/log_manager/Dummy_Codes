@@ -1,0 +1,18 @@
+if ((line2 = reader.readLine()) != null) {                    //reads second line.....
+					String lower = line2.toLowerCase();
+					if ((lower.contains(key) && !(pattern.matcher(lower).find()))||(line.toLowerCase().contains(key) && !(pattern.matcher(line).find()))) {                                //checks the second line....
+						System.out.println( "----------------->\n"+line + "\n" + line2);
+
+						while (((line2 = reader.readLine()) != null)) {
+
+							if (!(pattern.matcher(line2).find()))
+							{System.out.println(line2);
+
+								}
+							else
+								break;
+						}
+					}
+				}
+
+-----------------------------------------------------------------------------------------------SIF-----------------------------------------------
